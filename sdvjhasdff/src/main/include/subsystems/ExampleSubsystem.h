@@ -19,6 +19,8 @@ class ExampleSubsystem : public frc2::SubsystemBase {
   void Periodic() override;
 
  private:
+
+TalonSRX le_motor; 
   // Components (e.g. motor controllers and sensors) should generally be
   // declared private and exposed only through public methods.
 };
